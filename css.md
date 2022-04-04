@@ -71,7 +71,7 @@ background-color: black;
 color: white;
 
 /*To change the border color*/
-border-color: ;
+border-color: white;
 ```
 
 ### Box Model

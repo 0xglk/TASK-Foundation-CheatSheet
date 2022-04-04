@@ -78,7 +78,7 @@ Every text should be between quotation marks.
 console.log("\n"); // prints a new line
 console.log("\t"); // prints a tab   space
 console.log("\\"); // prints a single back slash \
-console.log("?"); // prints a single quotation mark "
+console.log(`"`); // prints a single quotation mark "
 ```
 
 **String Interpolation**
@@ -194,7 +194,7 @@ Even numbers will return true on the following statement
 ```js
 const x = ???
 // if you want to check if x is even, you do the following condition
-if(% 2 == 0){
+if(x % 2 == 0){
   // will only be executed if x was event
 }
 ```
@@ -215,7 +215,7 @@ function functionName(){
 }
 
 // 2. To invoke the function
-functionName()
+functionName();
 ```
 
 **parameters and arguments**
@@ -225,7 +225,7 @@ functionName()
 
 ```js
 // 1. Function that takes multiple arguments
-function foo(...args){
+function foo(x,y){
 }
 
 // 2. Calling the function and passing multiple parameters
@@ -328,10 +328,6 @@ function foo() {}
 // the arrow function way
 // 1
 (foo) => foo;
-// 2
-function (foo){
-  return foo;
-}
 ```
 
 ### Iteration Methods
@@ -389,7 +385,7 @@ const someObj = {
   key2: "value2",
 };
 const keyName = "shade of red";
-console.log(someObj.key1 keyName[value2];
+console.log(someObj.key1);
 ```
 
 ## Adding new proprties to the object
