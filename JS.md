@@ -385,7 +385,7 @@ const someObj = {
   key2: "value2",
 };
 const keyName = "shade of red";
-console.log(someObj.key1);
+console.log(someObj[keyName]);
 ```
 
 ## Adding new proprties to the object
